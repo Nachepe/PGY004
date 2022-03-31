@@ -1,0 +1,22 @@
+.sus{
+    font-size: large ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(91, 160, 160);
+    border-radius: 10px;
+    margin-right: 250px;
+    transition: all 1s;
+}
+.sus:hover{
+    background-color: rgb(116, 255, 255);
+    color: azure;
+}
+
+@media (max-width:768px) {
+     .adapt{
+         width: 200px;
+
+     }
+    
+}
+
+
