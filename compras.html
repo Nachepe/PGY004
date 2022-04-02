@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mascotas</title>
+
+    <!-- Links-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm teal lighten-4  navbar-dark  " style="height: 120px;">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="user.html">
+                <img src="img/Logo_Mascota-removebg-preview.png" alt="" width="130">
+            </a>
+            <h2>Pets Shop</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav" style="font-size: large;">
+
+                    <input class="text" type="text" placeholder="">
+                    <a class="btn btn-success border " style="margin-right: 560px;" href="#"><i
+                            class="fa-solid fa-magnifying-glass"></i></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <div class="col-sm-2 cyan darken-4 " style="min-height: 80vh;">
+                <div class="row perfil">
+                    <div class="col-sm-12 mt-4 d-flex justify-content-center">
+                        <img class="avatar" src="img/user.png" width="100" alt="">
+                    </div>
+                    <div class="col-sm-12 mt-2 d-flex justify-content-center text-white">
+                        <h6>Bienvenido: User.Apellido</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+
+                      
+                        <ul class="nav nav-pills flex-column mt-3">
+
+                            <li class="nav-item mt-1">
+                                <a class="nav-link" href="perfil.html"><i class="fa fa-basket-shopping"></i></i> Mi perfil</a>
+                            </li>
+                            <li class="nav-item activo rounded">
+                                <a class="nav-link " href="compras"> <i class="fa fa-home"></i> Compras</a>
+                            </li>
+                            <li class="nav-item mt-1">
+                                <a class="nav-link" href="#"><i class="fa fa-basket-shopping"></i></i> Ventas</a>
+                            </li>
+                            <li class="nav-item mt-1">
+                                <a class="nav-link" href="#"><i class="fa fa-gear"></i> Configuracion</a>
+                            </li>
+                            <hr>
+                            <li class="nav-item mt-1">
+                                <a class="nav-link text-white" href="index.html"><i
+                                        class="fa fa-right-from-bracket"></i> Cerrar Sesion</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-sm-10">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-2">
+
+                        </div>
+                        <div class="col-sm-8 mt-5 ">
+
+
+                            <p class="compra-title text-center">Ultimas Compras</p>
+
+
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title"><p class="compra-title2">Orden#145673565</p></h4>
+                                    <div class="row">
+                                        <div class="col-sm-3"><img class="imgcompra"
+                                                src="img/Baño ecologico para perros.jpg"></div>
+                                        <div class="col-sm-9">
+                                            <p class="card-text compra-texto mt-5">
+                                                Baño para mascotas
+                                            </p>
+                                            <p class="text-secondary">Baño ecologico para perros | 1 unidad</p>
+                                        </div>
+
+                                    </div>
+
+
+
+                                    <p class="compra-texto">Total: $6.500 clp</p>
+                                    <div class="d-flex justify-content-end">
+                                        <a href="seguimiento.html" class="card-link btn">Seguimiento de compra</a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title"><p class="compra-title2">Orden#132673565</p></h4>
+                                    <div class="row">
+                                        <div class="col-sm-3"><img class="imgcompra"
+                                                src="img/baberos.jpg"></div>
+                                        <div class="col-sm-9">
+                                            <p class="card-text compra-texto mt-5">
+                                                Baberos
+                                            </p>
+                                            <p class="text-secondary">babero para mascotas | 4 unidades</p>
+                                        </div>
+
+                                    </div>
+
+
+
+                                    <p class="compra-texto">Total: $17.600 clp</p>
+                                    <div class="d-flex justify-content-end">
+                                        <a href="#" class="card-link btn">Orden Finalizada</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title"><p class="compra-title2">Orden#18373565</p></h4>
+                                    <div class="row">
+                                        <div class="col-sm-3"><img class="imgcompra"
+                                                src="img/dispensador de alimentos.jpg"></div>
+                                        <div class="col-sm-9">
+                                            <p class="card-text compra-texto mt-5">
+                                                Dispensador de alimentos
+                                            </p>
+                                            <p class="text-secondary">Dispensador de alimentos | 2 unidades</p>
+                                        </div>
+                                        <div class="col-sm-3"><img class="imgcompra"
+                                            src="img/rascador para gatos.jpg"></div>
+                                    <div class="col-sm-9">
+                                        <p class="card-text compra-texto mt-5">
+                                            Rascador
+                                        </p>
+                                        <p class="text-secondary">Rascador para gatos | 1 unidad</p>
+                                    </div>
+                                    <div class="col-sm-3"><img class="imgcompra"
+                                        src="img/arena para gatos.png"></div>
+                                <div class="col-sm-9">
+                                    <p class="card-text compra-texto mt-5">
+                                        Arena para gatos
+                                    </p>
+                                    <p class="text-secondary">Ecologica y muy segura | 3 unidades</p>
+                                </div>
+                                        
+
+                                    </div>
+
+
+
+                                    <p class="compra-texto">Total: $129.500 clp</p>
+                                    <div class="d-flex justify-content-end">
+                                        <a href="#" class="card-link btn">Orden Finalizada</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 "></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="page-footer teal lighten-4 mt-0">
+        <div class="container ">
+            <div class="row">
+                <div class="col l6 s12">
+                    <img src="img/Logo_Mascota-removebg-preview.png" alt="" width="140">
+                    <p class="grey-text text-white"> Entregamos el mejor servicio de compras productos para sus
+                        mascotas. </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Contáctanos</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-white" href="#!"><i class="fa-brands fa-instagram"></i>
+                                Instagram</a>
+                        </li>
+                        <li><a class="grey-text text-white" href="#!"><i class="fa-brands fa-twitter"></i> Twitter</a>
+                        </li>
+                        <li><a class="grey-text text-white" href="#!"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2022 todos los derechos reservados Pets Shop
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+
+</html>
