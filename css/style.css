@@ -1,18 +1,11 @@
-.sus{
-    font-size: large ;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(91, 160, 160);
-    border-radius: 10px;
-    margin-right: 250px;
-    transition: all 1s;
-}
 .sus:hover{
-    background-color: rgb(116, 255, 255);
-    color: azure;
+    color: blanchedalmond;
 }
 
 
-
+.nav-item{
+    height: 50px;
+}
 
 
 .username{
@@ -20,7 +13,12 @@
     font-weight: bold;
 
 }
-
+.titulo-pagina{
+    font-size: 45px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
 .compra-title{
     font-size: 35px; 
     font-weight: bold;
@@ -31,6 +29,7 @@
     
 }
 .compra-texto{
+
     font-weight: 600;
     font-size: larger;
 }
@@ -83,8 +82,12 @@
 
 .page-footer{
     background-image: url(../img/fondo\ de\ pantalla.jpg);
+    background-size: cover;
+    background-position:top;
 }
 
 .navbar{
     background-image: url(../img/fondo\ de\ pantalla.jpg);
+    background-size: cover;
+    background-position:top;
 }
