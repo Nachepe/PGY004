@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- jQuery library -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+
+
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+</head>
+<body>
+    <nav class="nav-wraper navbar " style="min-height: 180px;">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="#">
+        <img src="img/Logo_Mascota-removebg-preview.png" alt="" width="130"> <span class="titulo-pagina">Pets Shop</span>
+      </a>
+      
+
+      <a href="#" class="sidenav-trigger" data-target="mobile-links">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+    
+        <li class="">
+          <a class="nav-link text-white" href="#">Inicio</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav teal lighten-4 " id="mobile-links">
+
+    <li class="">
+    </li>
+
+
+    <li>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">search</i>
+              <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+              <label for="icon_prefix2">Busqueda</label>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      </div>
+
+    </li>
+
+    <li>
+        <a class="nav-link text-black text-center" href="index.html" data-toggle="modal" data-target="#modallogin">Inicio</a>
+      </li> 
+  </ul>
+<div class="container mt-4">
+    <h3>Mi Carrito</h3>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title"><p class="compra-title2"></p></h4>
+            <div class="row">
+                <div class="col-sm-3"><img class="imgcompra"
+                        src="img/baberos.jpg"></div>
+                <div class="col-sm-9">
+                    <p class="card-text compra-texto mt-5">
+                        Baberos
+                    </p>
+                    <p class="text-secondary">  babero para mascotas | 4 unidades</p>
+                    <p>$17.000</p>
+                </div>
+    
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3"><img class="imgcompra"
+                        src="img/arena para gatos.png"></div>
+                <div class="col-sm-9">
+                    <p class="card-text compra-texto mt-5">
+                        Arena para gatos
+                    </p>
+                    <p class="text-secondary">  Arena para gatos | 2 unidades</p>
+                    <p>$20.000</p>
+                </div>
+    
+            </div>
+                
+    
+    
+            <p class="compra-texto">Subtotal: <strike> $37.000 clp</strike></p>
+            <p class="compra-texto">Descuento Subs 20%: -$7400  clp</p>
+            <p class="compra-texto">Total Productos: $29.600  clp</p>
+
+            <div>
+
+                
+              </div>
+
+            <div class="d-flex justify-content-between">
+                <button type="button" class="btn blue darken-4" data-target="modal">Pagar</button>
+                <a href="#" class="btn red darken-4">Eliminar</a>
+
+            </div>
+    
+        </div>
+    </div>
+
+    
+</div>
+
+  <!-- Footer-->
+<footer class="page-footer teal lighten-4">
+    <div class="container ">
+      <div class="row">
+        <div class="col l6 s12">
+          <img src="img/Logo_Mascota-removebg-preview.png" alt="" width="140">
+          <p class="grey-text text-white"> Entregamos el mejor servicio de compras en productos para sus mascotas. </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Contáctanos</h5>
+          <ul class="">
+            <li>
+              <a class="grey-text" href="#!"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            </li>
+            <li><a class="grey-text text-white" href="#!"><i class="fa-brands fa-github"></i> GitHub</a>
+            </li>
+            <li><a class="grey-text text-white" href="#!"><i class="fa-brands fa-facebook"></i> Facebook</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container text-center text-black">
+      © 2022 todos los derechos reservados Pets Shop
+      </div>
+    </div>
+  </footer>
+
+  <!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+<!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
