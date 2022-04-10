@@ -75,6 +75,11 @@
     margin: auto;
     display: block;
 }
+#imgres img{
+    text-align: center;
+    margin: auto;
+    display: block;
+}
 #fondo{
     background-image: url(../img/fondo.jpg);
     background-attachment: fixed;

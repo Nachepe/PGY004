@@ -46,6 +46,9 @@
         <li class="">
           <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#modallogin">LogIn</a>
         </li>
+        <li class="">
+          <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#modalRegistro">Registrarse</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -220,6 +223,71 @@
         </div>
       </div>
     </div>
+
+
+    <!-- INICIO Registro-->
+  <div class="modal" id="modalRegistro">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header Registro-->
+        <div class="modal-header">
+          <h4 class="modal-title">Registro</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+  
+        <!-- Modal body Registro -->
+        <div class="modal-body" id="imgres">
+            <img src="img/grupo.png"  alt="50" width="180" >
+            <form">
+
+            <div class="form-group mt-3">
+              <label for="txtUser">Rut</label>
+              <input type="text" placeholder="ej:13345544-6" class="form-control" name="txtUser" id="txtUser">
+            </div>
+              <div class="form-group mt-3">
+                <label for="txtUser">Nombre</label>
+                <input type="text" placeholder="ej:james" class="form-control" name="txtUser" id="txtUser">
+              </div>
+              <div class="form-group">   
+                <label for="txtUser">Apellido:</label>
+                <input type="text" placeholder="ej:garcia" class="form-control" name="txtUser" id="txtUser">
+              </div>
+              <div class="form-group">
+                <label for="txtUser">Email:</label>
+                <input type="text" placeholder="ej:usu.1@gmail.com" class="form-control" name="txtUser" id="txtUser">
+              </div>
+              <div class="form-group">
+                <label for="txtUser">Direccion:</label>
+                <input type="text" placeholder="ej:usu.1@gmail.com" class="form-control" name="txtUser" id="txtUser">
+              </div>
+              <div class="form-group">
+                <label for="txtUser">Usuario:</label>
+                <input type="text" placeholder="ej:usuario1" class="form-control" name="txtUser" id="txtUser">
+              </div>
+              <div class="form-group">
+                <label for="txtUser">Contraseña:</label>
+                <input type="text" placeholder="ej:usuario1234gh" class="form-control" name="txtUser" id="txtUser">
+              </div>     
+              </form>
+              </div>
+              <div>
+
+                <button type="button" class="btn btn-success" data-target="modal">Registrar</button>
+                <button type="button" class="btn btn-info" data-target="modal">Editar</button>
+
+              </div>
+             
+            </form>
+        </div>
+  
+        <!-- Modal footer Registro -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
